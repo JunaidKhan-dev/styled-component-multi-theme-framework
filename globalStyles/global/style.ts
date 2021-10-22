@@ -18,6 +18,10 @@ const GlobalStyle = createGlobalStyle`
     font-size: 2.2rem;
   }
 
+  h1, h2, h3, p {
+    margin: 0;
+  }
+
   ul[class]{
     list-style: none;
   }
