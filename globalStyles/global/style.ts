@@ -11,16 +11,20 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
   }
 
-  h1 {
+  h1, h2, h3, p {
     margin: 0;
-    margin-bottom: 1rem;
+  }
+
+
+  h1 {
     line-height: 1.1;
     font-size: 2.2rem;
   }
 
-  h1, h2, h3, p {
-    margin: 0;
-  }
+   h2 {
+    line-height: 1.1;
+    font-size: 1.8rem;
+   }
 
   ul[class]{
     list-style: none;
